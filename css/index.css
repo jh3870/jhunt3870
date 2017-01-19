@@ -1,0 +1,85 @@
+/*this is my stylesheet for the homepage*/
+/* header styles*/
+/* main body styles*/
+/* footer styles*/
+/*-------General ------------*/
+
+.wrap{
+  width: 90%;
+  margin: 0 20px;
+}
+/*----Navigation-----*/
+
+
+.top-bar{
+  background-color: #78D8CD;
+
+}
+.top-bar-left{
+  padding:20px 20px;
+}
+
+.nav-desktop{
+  height: 80px;
+  padding:0;
+  background-color: transparent;
+}
+.nav-desktop .menu-desktop {
+  line-height: 80 px;
+  background-color: transparent;
+}
+
+
+.menu > li > a {
+  display: inline-block;
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #78D8CD;
+
+}
+
+}
+/*---Body-----------------------------------*/
+.body{
+  background-color: #78D8CD;
+}
+
+
+@media (max-width:639 px){
+  nav {
+    display:none;}
+  }
+  /*--Hero----------------------------------*/
+  #hero-image {
+	height: 182px;
+	background: #e8eced url('../images/pencils-lg.gif');
+
+}
+
+#hero-image h2 {
+	margin: 20px 0 40px 0;
+  color:#184343;
+  text-align: center;
+
+}
+
+
+.button-1 {
+  opacity: 0.9;
+	display: block;
+	text-align: center;
+	background: #444;
+	border-radius: 3px;
+	color:#78D8CD;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0 auto;
+}
+
+.button-1:hover {
+	background-color:#184343;
+	color: #fff;
+}
