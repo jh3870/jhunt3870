@@ -1,0 +1,69 @@
+/*this is my stylesheet for the homepage*/
+/* header styles*/
+/* main body styles*/
+/* footer styles*/
+/*-------General ------------*/
+
+.wrap{
+  width: 90%;
+  margin: 0 20px;
+}
+/*----Navigation-----*/
+.site-logo{
+  color:white;
+}
+
+.top-bar{
+  background-color: #78D8CD;
+  background-image: url(../images/congruent_pentagon.png)
+}
+.top-bar-left{
+  padding:25px 50px;
+      font-family: 'Italiana', serif;
+}
+
+.nav-desktop{
+  height: 80px;
+  padding:0;
+  background-color: transparent;
+      font-family: 'Italiana', serif;
+}
+.nav-desktop .menu-desktop {
+  line-height: 80 px;
+  background-color: transparent;
+      font-family: 'Italiana', serif;
+}
+
+
+.menu > li > a {
+  display: inline-block;
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #78D8CD;
+  background-image: url(../images/congruent_pentagon.png);
+      font-family: 'Italiana', serif;
+      font-size: 25px;
+}
+#title{
+font-family: 'Italiana', serif;
+font-size: 25px;
+}
+
+/*---Body-----------------------------------*/
+.body{
+  background-color: #78D8CD;
+      font-family: 'Italiana', serif;
+}
+
+
+@media (max-width:639 px){
+  nav {
+        font-family: 'Italiana', serif;
+    display:none;}
+  }
+  #demo{
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+    padding: 10px 310px;
+  }
